@@ -26,6 +26,7 @@ button{
     cursor: pointer;
 }
 input{
+    appearance: none;
     -webkit-appearance: none;
 }
 ul{
