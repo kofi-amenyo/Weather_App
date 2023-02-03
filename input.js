@@ -23,6 +23,5 @@ fetch(url)
 
 .catch(()=> {
     msg.textContent = "Please serach for a valid city"
-    
 })
 
