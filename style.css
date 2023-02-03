@@ -4,7 +4,7 @@
     --text_med:#385170;
     --text_dark:#393e46;
     --yellow:#f7ec77;
-    --light_yellow:#fffe9a;
+    --orange:#f78536;
     --red:#e14242;
 }
 
@@ -83,8 +83,8 @@ button{
     transition: background 0.3s ease-in-out;
 }
 
-button :hover {
-    background: var(--light_yellow);
+button:hover {
+    background: var(--orange);
 
 }
 
