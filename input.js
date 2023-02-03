@@ -13,3 +13,16 @@ const apiKey = "2f9271df87b5da3ebe220fa3b68bfeed";
 const inputVal = input.value;
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q={inputVal}&appid={apiKey}&units=metric"
+
+
+fetch(url)
+    .then(response => response.json())
+    .then(data=> {
+        //
+    })
+
+.catch(()=> {
+    msg.textContent = "Please serach for a valid city"
+    
+})
+
