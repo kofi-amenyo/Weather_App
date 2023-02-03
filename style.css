@@ -1,7 +1,7 @@
 :root{
     --bg_main:#e0ebeb;
     --text_light: #606470;
-    --text_medium:#385170;
+    --text_med:#385170;
     --text_dark:#393e46;
     --yellow:#f7ec77;
     --light_yellow:#fffe9a;
@@ -26,8 +26,7 @@ button{
     cursor: pointer;
 }
 input{
-    appearance: none;
-    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 ul{
     list-style: none;
@@ -73,7 +72,7 @@ button,input{
     color: currentColor;
 }
 
-.top-banner form button{
+button{
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -84,7 +83,7 @@ button,input{
     transition: background 0.3s ease-in-out;
 }
 
-.top-banner form button :hover {
+button :hover {
     background: var(--light_yellow);
 
 }
