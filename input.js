@@ -9,7 +9,7 @@ const form = document.querySelector(".top-banner form");
 
 //Performing Ajax request using Personal API key
 
-const apiKey = "2f9271df87b5da3ebe220fa3b68bfeed";
+const apiKey = "#######";
 const inputVal = input.value;
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q={inputVal}&appid={apiKey}&units=metric"
